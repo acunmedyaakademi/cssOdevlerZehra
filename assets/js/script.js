@@ -1,8 +1,3 @@
-// document.addEventListener( function () {
-//     // Sayfa yüklendiğinde tüm cevapları gizle
-//     hideAllAnswers();
-// });
-
 function cevaplarGizle() {
     var cevaplar = document.querySelectorAll(".answer");
     cevaplar.forEach(function (cevap) {
