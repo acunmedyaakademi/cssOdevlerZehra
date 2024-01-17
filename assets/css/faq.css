@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+
+}
+body{
+    background: var(--Light-Pink, #F8EEFF);
+    margin: 0;
+    height: 100vh; /* Ekran yüksekliği kadar ayarla */
+    align-items: center; /* Dikey ortala */
+    justify-content: center;
+
+
+}
+.myDiv{
+    background-image: url("../img/faq-desktop.svg");
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+.container{
+    width: 600px;
+    padding: 40px;
+    border-radius: 16px;
+    background: var(--White, #FFF);
+    box-shadow: 0px 32px 56px 0px rgba(80, 0, 118, 0.10);
+    justify-content: center;
+    align-items: center;
+    margin-top: 470px;
+}
+.baslik{
+    display: flex;
+    margin-bottom: 32px;
+    width: 520px;
+}
+h1{
+    color: var(--Dark-Purple, #301534);
+    font-family: Work Sans;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.icon1{
+    margin-right: 24px;
+}
+h3{
+   display: flex;
+}
+.icon2{
+   margin-left: 90px;
+   float: right;
+}
+.icon3{
+margin-left: 318px;
+float: right;
+
+
+}
+.icon4{
+    margin-left: 79px;
+   float: right;
+
+ }
+ .icon5{
+    margin-left: 126px;
+   float: right;
+
+ }
+
+.firstsoru{
+    background-color: #FFF;
+    height: 50px;
+    color: var(--Dark-Purple, #301534);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-style: none;
+}
+
+.firstsoru:hover{
+    color: var(--Pink, #AD28EB);
+}
+.cevap {
+    display: none;
+    
+}
+.question{
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+#answer1{
+    color: var(--Pale-Purple, #8B6990);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    margin-top: 24px;
+}
+#answer2{
+    color: var(--Pale-Purple, #8B6990);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    margin-top: 24px;
+}
+#answer3{
+    color: var(--Pale-Purple, #8B6990);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    margin-top: 24px;
+}
+#answer4{
+    color: var(--Pale-Purple, #8B6990);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    margin-top: 24px;
+}
+
